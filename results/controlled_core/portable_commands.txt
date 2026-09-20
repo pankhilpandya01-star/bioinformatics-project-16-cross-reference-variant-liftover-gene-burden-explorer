@@ -1,0 +1,5 @@
+samtools faidx <SOURCE_FASTA>
+samtools faidx <TARGET_FASTA>
+bcftools norm -f <TARGET_FASTA> -m -any -Ov -o <NORMALIZED_VCF> <PROVISIONAL_VCF>
+bcftools view -Oz -o <COMPRESSED_VCF> <NORMALIZED_VCF>
+bcftools index -f --csi <COMPRESSED_VCF>

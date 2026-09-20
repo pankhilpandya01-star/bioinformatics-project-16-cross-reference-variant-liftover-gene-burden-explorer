@@ -1,0 +1,3 @@
+tool,version
+bcftools,bcftools 1.24
+samtools,samtools 1.24

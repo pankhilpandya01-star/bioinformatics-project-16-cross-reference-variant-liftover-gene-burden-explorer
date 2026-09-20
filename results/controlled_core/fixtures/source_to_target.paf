@@ -1,0 +1,6 @@
+src_plus	20	0	20	+	tgt_plus	20	0	20	19	20	60	tp:A:P	s1:i:40	s2:i:0	cg:Z:5=1X14=	cs:Z:=ACGTA*ct=GTACGTACGTACGT
+src_reverse	20	0	20	-	tgt_reverse	20	0	20	20	20	60	tp:A:P	s1:i:40	s2:i:0	cg:Z:20=	cs:Z:=TTGACCGTAACTGGCATCGA
+src_repeat	19	0	19	+	tgt_repeat_a	19	0	19	19	19	0	tp:A:P	s1:i:38	s2:i:0	cg:Z:19=	cs:Z:=GATTACAGATTACAGATTA
+src_repeat	19	0	19	+	tgt_repeat_b	19	0	19	19	19	0	tp:A:S	s1:i:38	s2:i:0	cg:Z:19=	cs:Z:=GATTACAGATTACAGATTA
+src_gap	11	0	11	+	tgt_gap	10	0	10	10	11	60	tp:A:P	s1:i:22	s2:i:0	cg:Z:5=1I5=	cs:Z:=AAAAA+g=CCCCC
+src_oneway	12	0	12	+	tgt_oneway	12	0	12	12	12	60	tp:A:P	s1:i:24	s2:i:0	cg:Z:12=	cs:Z:=AGCTTAGGCTAC

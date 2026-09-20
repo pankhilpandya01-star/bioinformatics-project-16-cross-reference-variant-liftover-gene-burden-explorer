@@ -1,0 +1,196 @@
+{
+  "alignment_counts": {
+    "directions": 10,
+    "paf_records": 1669,
+    "qualifying_blocks": 472,
+    "reciprocal_blocks": 439,
+    "substantive_alternatives": 0
+  },
+  "alignment_hashes": {
+    "GCF_000005845.2_to_GCF_000026225.1": "40bc1cb5ce69ed561641e42f9afb4bfd9ee62d4fc1abb269ccb3f888934f1331",
+    "GCF_000005845.2_to_GCF_002900365.1": "751768b668072247fe3d516a0571eed15f04355ffacb9b051076460f343e7b38",
+    "GCF_000005845.2_to_GCF_003697165.2": "4193fe4c78190b39609b97798dce102ca4104ff4b3097177371511ef8ce15435",
+    "GCF_000005845.2_to_GCF_005843885.1": "fc11137ad6f8c24e78314797cc3d5abcd99f4ee08cb60a00225d1ae3e8cdf62b",
+    "GCF_000005845.2_to_GCF_036503815.1": "f70f69bf0a20b1da71fbc9f23f8ae007df1d37806cd52db2f991790d8f77fa2e",
+    "GCF_000026225.1_to_GCF_000005845.2": "5154c72c8e28c4d58a8a71a3b3fc9ec9a3b294737aae32c1a5b00ab483db7729",
+    "GCF_002900365.1_to_GCF_000005845.2": "f3bf07b346ca7e6914bb237201d5fa254afdef442d6f32aee49058507877ca70",
+    "GCF_003697165.2_to_GCF_000005845.2": "7418434abe38ca8840d35b6748b17a3e9dd5b2c6edc94f9b0cb0893e7976218b",
+    "GCF_005843885.1_to_GCF_000005845.2": "9b729460fd709955e02c196df9b2371ec10b604a1e70310fe337b4d5ab19a341",
+    "GCF_036503815.1_to_GCF_000005845.2": "6994e832d56ef7ae8f1dc836cfa2994ace5b8d9a8dd826aae4d9e137b5e9d80d"
+  },
+  "baseline_accession": "GCF_000005845.2",
+  "interpretation_boundary": "Reciprocal whole-genome coverage establishes coordinate feasibility; it does not yet establish exact variant equivalence.",
+  "milestone": "connection_review",
+  "parameters": {
+    "alignment_preset": "asm20",
+    "minimum_alignment_identity": 0.85,
+    "minimum_alignment_length": 10000,
+    "minimum_alignment_mapq": 20,
+    "minimum_comparable_coverage": 0.7,
+    "reciprocal_overlap_fraction": 0.5,
+    "threads": 1
+  },
+  "project15_hashes": {
+    "annotation_effects": "e032f844808c3fda8f3165593187c1180eb56f1dc6e3fffb24209058d177fc14",
+    "annotation_manifest": "7059c3d991884392b6642b892bcddbc4b063e75143d0748b9ab418a6c13f8200",
+    "baseline_ortholog_comparison": "c2e1cbba42e42e829990c8fa41125d6c460d28c0b29c9ec256060c539e04f189",
+    "comparison_manifest": "72885c9b9617e162039abd547c9d169c39d6c8f4240a1ba9f25b87d9ac86a915",
+    "gene_consequence_burden": "1b692aff97096baede5a5d04c9298e79ffeae2aa184f0af269e695ad60b6ef86",
+    "orthology_manifest": "8f80aa5f0d09f1c060c63f3861df31149f87b44d9e90e959c85fcb2e85c6071c",
+    "orthology_relationships": "8826b2a5372cbd3e199f5154e97a7067b46272c9efd6fae030e8cfb005727635",
+    "review_candidate_orthology": "6adf6d611a36339e18842cb99653e41fdeb91738be9571032237bba158438162"
+  },
+  "project15_reproduction": {
+    "accepted_variants": 357581,
+    "annotation_effects": 357959,
+    "baseline_alternative_gene_comparisons": 23255,
+    "comparable_gene_pairs": 6356,
+    "project14_review_candidates": 80,
+    "references": 6,
+    "review_candidate_reference_contexts": 400
+  },
+  "reference_inventory": {
+    "GCF_000005845.2": {
+      "accepted_variants": 30973,
+      "bases": 4641652,
+      "contigs": 1,
+      "evaluated_variants": 33203,
+      "label": "MG1655 baseline",
+      "lengths": {
+        "NC_000913.3": 4641652
+      },
+      "rejected_variants": 2230,
+      "role": "baseline"
+    },
+    "GCF_000026225.1": {
+      "accepted_variants": 15264,
+      "bases": 4643861,
+      "contigs": 2,
+      "evaluated_variants": 93839,
+      "label": "ATCC 35469",
+      "lengths": {
+        "NC_011740.1": 4588711,
+        "NC_011743.1": 55150
+      },
+      "rejected_variants": 78575,
+      "role": "alternative"
+    },
+    "GCF_002900365.1": {
+      "accepted_variants": 44151,
+      "bases": 4896291,
+      "contigs": 3,
+      "evaluated_variants": 154743,
+      "label": "HT073016",
+      "lengths": {
+        "NZ_CP025979.1": 4671322,
+        "NZ_CP025980.1": 148809,
+        "NZ_CP025981.1": 76160
+      },
+      "rejected_variants": 110592,
+      "role": "alternative"
+    },
+    "GCF_003697165.2": {
+      "accepted_variants": 92665,
+      "bases": 5034834,
+      "contigs": 2,
+      "evaluated_variants": 99975,
+      "label": "DSM 30083 / ATCC 11775",
+      "lengths": {
+        "NZ_CP033091.2": 131333,
+        "NZ_CP033092.2": 4903501
+      },
+      "rejected_variants": 7310,
+      "role": "alternative"
+    },
+    "GCF_005843885.1": {
+      "accepted_variants": 49201,
+      "bases": 5120753,
+      "contigs": 1,
+      "evaluated_variants": 159550,
+      "label": "E4742",
+      "lengths": {
+        "NZ_CP040443.1": 5120753
+      },
+      "rejected_variants": 110349,
+      "role": "alternative"
+    },
+    "GCF_036503815.1": {
+      "accepted_variants": 125327,
+      "bases": 5199626,
+      "contigs": 5,
+      "evaluated_variants": 137106,
+      "label": "2017-02-2CC",
+      "lengths": {
+        "NZ_AP027764.1": 4992219,
+        "NZ_AP027765.1": 99974,
+        "NZ_AP027766.1": 68291,
+        "NZ_AP027767.1": 34997,
+        "NZ_AP027768.1": 4145
+      },
+      "rejected_variants": 11779,
+      "role": "alternative"
+    }
+  },
+  "sample_id": "SRR13921545",
+  "source_hashes": {
+    "GCF_000005845.2:accepted_vcf": "5a15f3a7df057a686c8f9eebc805be804d02d217c547c82c0837711572063c0f",
+    "GCF_000005845.2:accepted_vcf_index": "38aabd1976d2b8235f135902ea3b40de0a67c71e32994d7f452eda4a8141b12e",
+    "GCF_000005845.2:callable_bed": "db080c9b28ef0d31fc4dfeff17c95d4fba40a5b16849ead4bea9694ae3b6219f",
+    "GCF_000005845.2:evaluated_vcf": "cecd7152a54ff761713aa7b88e504d445b9597659935e764db208a39874626f8",
+    "GCF_000005845.2:evaluated_vcf_index": "61c9f2c171af1e3fc51d00adde7788197aae06a56d29298333fd180606dd184d",
+    "GCF_000005845.2:reference_fasta": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4",
+    "GCF_000005845.2:rejected_vcf": "d10f35ba670309fb753e061e3b52c3fff4b475141402bf535dcb79f7b474d14b",
+    "GCF_000005845.2:rejected_vcf_index": "cc61ee9e7b07f3864c11024c7a3dc6a1ab3d56c37edd3696bd808b04b4b7d802",
+    "GCF_000026225.1:accepted_vcf": "6bed3620216af47522f61341f4434707f84bf63c6ed2e2b3b8d5a19b2032a002",
+    "GCF_000026225.1:accepted_vcf_index": "21a81c8192a5cabef343c9868c33b22e7579b051db5cc891311d4ff9003c8dcf",
+    "GCF_000026225.1:callable_bed": "6d58b4dedd87d163c5ba2314dac6d0f6fac74f56ae4aae356e8405ddbb399ebe",
+    "GCF_000026225.1:evaluated_vcf": "8fbd53da5df5e77745d003a44410d5f054a8b618d9188fb6ee327c652140b703",
+    "GCF_000026225.1:evaluated_vcf_index": "2659bb7e803921a1ea7d0aee1d7f2e60f419c090724dcf2efefd5f08f8505b30",
+    "GCF_000026225.1:reference_fasta": "27b1ae81ccc96c77256d5b9afbf33121a6365a1393bf1df37014c3d24b09d6f3",
+    "GCF_000026225.1:rejected_vcf": "ea9ae41767ad0bb727438a5654d1bd234736f2b8b5c62c996fad7f3d4924abe7",
+    "GCF_000026225.1:rejected_vcf_index": "3f7c6006bb3d0cd6832727895399313ff3f6025ae77df930a13f56cc1f6a4fa2",
+    "GCF_002900365.1:accepted_vcf": "f39ff4a7fe240e8da58c6f9c723c958abf97d4dcab2e6fdf889bf576c503ccf6",
+    "GCF_002900365.1:accepted_vcf_index": "da946ae8a7e331b1669a751748c673afe3d38560649a7c4c2edb4c8eb1408d60",
+    "GCF_002900365.1:callable_bed": "324e56cd0ea1dec095fc0aa3d7337973ab52b21b1e1946f2fceeb3c1736bd8af",
+    "GCF_002900365.1:evaluated_vcf": "19d6bed61c36ceb951ee81758634c8299304585183c79b19f47ba18d3016da73",
+    "GCF_002900365.1:evaluated_vcf_index": "c877d0ce161d911175eaedaa6b6804122edfdf30ac5345415672b7b4b222f58a",
+    "GCF_002900365.1:reference_fasta": "062250f26f8fedf2be000ff7a31c00f89f3c4c34046eeec95a96e6a085ea76e8",
+    "GCF_002900365.1:rejected_vcf": "f5a6be74bc5eab7c15072b0199bc38abcbd7b2182af79c452424a48df40ec68f",
+    "GCF_002900365.1:rejected_vcf_index": "5b20bc52a8ea3ce6c055e27c0ef208da39815565c9a6998dc30de4965381e857",
+    "GCF_003697165.2:accepted_vcf": "f299cc4c9997eca9f1474674664bb8d8ffd0b08672b6f49f93030efb71a8f58e",
+    "GCF_003697165.2:accepted_vcf_index": "7baa72acb1a5ffc34546441722d313c295dfcd0faf4c9ec604710fed2178f959",
+    "GCF_003697165.2:callable_bed": "94eb8cb72cff3115e75461a0ed1ddd74775b2be7b335b937b37a326ad3852a73",
+    "GCF_003697165.2:evaluated_vcf": "594ff400b4cafdcebd390dbab8ae8262546f36acd000a1e8876c5a6f8a9e727c",
+    "GCF_003697165.2:evaluated_vcf_index": "1910709a6ebf86364005be2c15db609b9d3682a1aeebf8cf520224a83d274a5a",
+    "GCF_003697165.2:reference_fasta": "17124ac56df45b547706ddb0b2a56274d893022f42fe445afb5a08e19eb874b1",
+    "GCF_003697165.2:rejected_vcf": "f283c459fdb13c1acd2d4ca2b70b27b0da22ddae6eafc6ceb823124f25d477ab",
+    "GCF_003697165.2:rejected_vcf_index": "f6dc962ddd3066b3204446f4c24a695d7df1be62c4ed4bdbf600c9523c13c44e",
+    "GCF_005843885.1:accepted_vcf": "240835f2eb611f381b65b8a36fb7e230c6300fd73190f0cec62f84ed0ab32ed7",
+    "GCF_005843885.1:accepted_vcf_index": "f1c2d91d85946e375459fa89fd371f69b1af330fdf77fd89e84c8bd370511f66",
+    "GCF_005843885.1:callable_bed": "922d254052386bdf34e4ac7c6644327ed8844ba6eea092b1ca1cca9147a3224a",
+    "GCF_005843885.1:evaluated_vcf": "df6a8adde1b4ae056f6e7bb94205ca2355f44ac9eec43d1d0b6b74204f739868",
+    "GCF_005843885.1:evaluated_vcf_index": "3b034c9d4eece1f274ef78fa633b9b2e12201c371c1dc54e17e39ddff6ea3957",
+    "GCF_005843885.1:reference_fasta": "964a07bf2352f16194adee6e03b8ea079921246375f1b81382491c8284887a9f",
+    "GCF_005843885.1:rejected_vcf": "cd6549945ca6203605ee244fec012d03c23dd53c7863640ca9d24fbba707a53f",
+    "GCF_005843885.1:rejected_vcf_index": "4205db5159a27e3d0fd964a4242d058983d7742be2fa2f3743ac11bc98a4cccf",
+    "GCF_036503815.1:accepted_vcf": "4a7f25d2344e3243faa5c82ae1a257893cc9d40901e9919dab089700ba92a64b",
+    "GCF_036503815.1:accepted_vcf_index": "703ba6812a0c4914b52353431d0e4683f74750f5c08267d8787e1688724fa09b",
+    "GCF_036503815.1:callable_bed": "f031271670b188d5e25510378bf1f2d5266d4dad76dd2bd1936eea42d642e49c",
+    "GCF_036503815.1:evaluated_vcf": "103d8814cf4275528ea1720741b5dee82ec4b95e532836b4f533e0504d3bf724",
+    "GCF_036503815.1:evaluated_vcf_index": "f515fe64a3fcf4cd9ff720b1bc6951ae90c0f7759c0416cf5dfd6981d927cd43",
+    "GCF_036503815.1:reference_fasta": "53abc0aaaa1d3d62c031ed7f40f4b1eea40e2c39776993427277049fb375bf7e",
+    "GCF_036503815.1:rejected_vcf": "4c3fe7c1189a840f837a9a9468d193ff1a06fbd90f773b17ee53c2ac2c1fdd8c",
+    "GCF_036503815.1:rejected_vcf_index": "0ab7110ff446df2004007d0f413d929285e651dffcf100c9eb148db3705b9eba"
+  },
+  "source_inputs_unchanged": true,
+  "status": "pass",
+  "tools": {
+    "bcftools": "bcftools 1.24",
+    "matplotlib": "3.11.1",
+    "minimap2": "2.31-r1302",
+    "python": "3.12.14",
+    "samtools": "samtools 1.24"
+  },
+  "workflow": "variant-liftover-explorer",
+  "workflow_version": "0.1.0"
+}

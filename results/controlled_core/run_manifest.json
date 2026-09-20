@@ -1,0 +1,42 @@
+{
+  "atomic_publication": true,
+  "counts": {
+    "normalized": 8,
+    "projected_vcf_records": 7,
+    "reciprocal": 8,
+    "source_variants": 12,
+    "statuses": {
+      "accepted_match": 4,
+      "ambiguous_mapping": 1,
+      "callable_no_candidate": 1,
+      "complex_alignment_context": 1,
+      "nonalignable": 1,
+      "nonreciprocal_mapping": 1,
+      "rejected_match": 1,
+      "target_not_callable": 1,
+      "target_reference_match": 1
+    }
+  },
+  "fixture_checksums": {
+    "source.fasta": "29bcc89789520523bef6cd7a73d0c47816bb7c9390cbafb492c70a7fb2c745f9",
+    "source_to_target.paf": "70cb787fcaa96253a30fa388179e3fa2a4628cdf8dee833d338a3a5122ab051c",
+    "target.fasta": "f7805cc665df2080ced5aa4b5ae52e580a1a9947bef976b2b97de9141409c8d2",
+    "target_callable.bed": "840fdc8a4d4e6baa07b6a33e85dafa4eef17372734958973a94554a9e4052239",
+    "target_to_source.paf": "3bd5be4ccabe3c62be12052905a702fdac4f2031efa1978d47f875d40e89a5ff"
+  },
+  "interpretation_boundary": "Controlled examples validate coordinate and allele mechanics; they are not biological findings.",
+  "milestone": "controlled_liftover_engine",
+  "parameters": {
+    "ambiguity_score_fraction": 0.95,
+    "minimum_alignment_identity": 0.85,
+    "minimum_alignment_length": 10,
+    "minimum_alignment_mapq": 20
+  },
+  "status": "pass",
+  "tools": {
+    "bcftools": "bcftools 1.24",
+    "samtools": "samtools 1.24"
+  },
+  "workflow": "variant-liftover-explorer",
+  "workflow_version": "0.1.0"
+}

@@ -1,0 +1,26 @@
+{
+  "atomic_publication": true,
+  "counts": {
+    "annotation_effects": 357959,
+    "comparable_gene_pairs": 6356,
+    "comparison_rows": 23255,
+    "gene_burden_rows": 28859,
+    "review_candidates": 80,
+    "review_contexts": 400,
+    "unlinked_effects": 30382,
+    "variant_gene_assignments": 327542
+  },
+  "input_hashes": {
+    "annotation_effects": "e032f844808c3fda8f3165593187c1180eb56f1dc6e3fffb24209058d177fc14",
+    "baseline_ortholog_comparison": "c2e1cbba42e42e829990c8fa41125d6c460d28c0b29c9ec256060c539e04f189",
+    "gene_catalog": "5109d12889eca9e6c8b96bab5fc0551337aa4321222f63bcfc2649a3ac50133b",
+    "gene_consequence_burden": "1b692aff97096baede5a5d04c9298e79ffeae2aa184f0af269e695ad60b6ef86",
+    "review_candidate_orthology": "6adf6d611a36339e18842cb99653e41fdeb91738be9571032237bba158438162"
+  },
+  "interpretation_boundary": "This review validates inherited schemas and accounting; it does not project authentic variants.",
+  "milestone": "project15_bridge_review",
+  "source_inputs_unchanged": true,
+  "status": "pass",
+  "workflow": "variant-liftover-explorer",
+  "workflow_version": "0.1.0"
+}

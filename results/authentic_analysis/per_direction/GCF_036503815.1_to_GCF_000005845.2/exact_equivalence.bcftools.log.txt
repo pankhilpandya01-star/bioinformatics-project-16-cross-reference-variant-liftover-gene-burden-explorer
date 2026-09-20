@@ -1,0 +1,1 @@
+Lines   total/split/joined/realigned/mismatch_removed/dup_removed/skipped:	10303/0/0/0/0/0/0

@@ -1,0 +1,3 @@
+baseline_variant_key,baseline_gene_id,baseline_gene_name,baseline_primary_consequence,baseline_primary_impact,alternative_accession,alternative_gene_ids,comparison_scope,projection_status,projection_reason,target_variant_key,exact_accepted_match,target_in_ortholog_gene,target_consequence,target_impact,effect_relation,burden_explanation
+B:10:A:G,G_same,same,missense_variant,MODERATE,ALTERNATIVE.1,A_same,controlled_gene_context,accepted_match,exact key,A:11:A:G,True,True,missense_variant,MODERATE,same_consequence_and_impact,same_exact_variants
+B:50:A:C,G_reference,reference,missense_variant,MODERATE,ALTERNATIVE.1,A_reference,controlled_gene_context,target_reference_match,reference allele,,False,False,,,target_gene_effect_missing,reference_allele_difference

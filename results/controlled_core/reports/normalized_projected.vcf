@@ -1,0 +1,16 @@
+##fileformat=VCFv4.3
+##INFO=<ID=LIFTOVER_STATUS,Number=1,Type=String,Description="Controlled projection status">
+##contig=<ID=tgt_plus,length=20>
+##contig=<ID=tgt_reverse,length=20>
+##contig=<ID=tgt_repeat_a,length=19>
+##contig=<ID=tgt_repeat_b,length=19>
+##contig=<ID=tgt_gap,length=10>
+##contig=<ID=tgt_oneway,length=12>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+tgt_plus	2	accepted_snp	C	G	.	PASS	LIFTOVER_STATUS=accepted_match
+tgt_plus	3	rejected_snp	G	A	.	PASS	LIFTOVER_STATUS=rejected_match
+tgt_plus	7	callable_absent	G	A	.	PASS	LIFTOVER_STATUS=callable_no_candidate
+tgt_plus	8	not_callable	T	A	.	PASS	LIFTOVER_STATUS=target_not_callable
+tgt_plus	10	accepted_insertion	C	CAA	.	PASS	LIFTOVER_STATUS=accepted_match
+tgt_plus	13	accepted_deletion	AC	A	.	PASS	LIFTOVER_STATUS=accepted_match
+tgt_reverse	17	reverse_snp	T	C	.	PASS	LIFTOVER_STATUS=accepted_match

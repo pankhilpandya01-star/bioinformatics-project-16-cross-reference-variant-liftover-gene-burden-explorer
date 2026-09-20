@@ -1,0 +1,7 @@
+*.csv linguist-detectable=false
+*.tsv linguist-detectable=false
+*.vcf linguist-detectable=false
+*.vcf.gz linguist-detectable=false
+*.bed linguist-detectable=false
+*.paf linguist-detectable=false
+results/** linguist-vendored

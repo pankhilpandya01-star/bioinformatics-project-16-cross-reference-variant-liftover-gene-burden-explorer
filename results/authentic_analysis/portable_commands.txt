@@ -1,0 +1,4 @@
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA> <SOURCE_FASTA> > <PAF>
+bcftools norm -f <TARGET_FASTA> -m -any -Ov -o <NORMALIZED_VCF> <PROVISIONAL_VCF>
+bcftools norm -c e -d exact -f <TARGET_FASTA> -Oz -o <PROJECTED_VCF_GZ> <PROJECTED_VCF>
+bcftools index -f --csi <PROJECTED_VCF_GZ>

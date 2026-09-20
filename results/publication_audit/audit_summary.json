@@ -1,0 +1,20 @@
+{
+  "authorship_wording_findings": 0,
+  "broken_markdown_links": 0,
+  "candidate_bytes": 78592809,
+  "candidate_files": 158,
+  "individual_file_limit_bytes": 104857600,
+  "inventory_sha256": "9362eb5e10864e78ccb9997d0351514fcf95759f957efbde3f6c294454e38f65",
+  "largest_file": {
+    "bytes": 34854908,
+    "path": "results/authentic_analysis/tables/baseline_variant_comparison.csv",
+    "sha256": "6613e26cae7d91ae2e5ae6489aaa6c4eb40f4332ac0333de14af57f80fa4da8f"
+  },
+  "local_storage_excluded": true,
+  "markdown_links_checked": true,
+  "milestone": "publication_audit",
+  "privacy_and_credential_findings": 0,
+  "repository_created": true,
+  "status": "pass",
+  "workflow": "variant-liftover-explorer"
+}

@@ -1,0 +1,42 @@
+{
+  "artifact_checksums": {
+    "authentic_dashboard": "63753f4245dbaf3a1e23a87bf3f64365ff5c971b2311b7b194696fbd38730c30",
+    "authentic_manifest": "c541381d0ab3f0f9ea108967446c969f81cc4985c5d4adcaf656bec509783c97",
+    "connection_review_manifest": "582b896f706175d534afab74a1389cc361e31ae57d8a3c45599797fa4f86ab53",
+    "test_matrix": "d5cadaad2bb36443e7b0443c45d0d8d322469e59bb062805e98180d974045062"
+  },
+  "authentic_read_only_validation": {
+    "baseline_variant_comparison_rows": 154865,
+    "comparable_gene_pairs": 6356,
+    "directional_projection_attempts": 481473,
+    "directional_vcfs": 20,
+    "passed": true,
+    "project15_variants": 357581,
+    "references": 6,
+    "review_candidate_liftover_rows": 400
+  },
+  "milestone": "quality_review",
+  "partial_outputs_after_injected_failures": 0,
+  "pinned_tools": {
+    "bcftools": "bcftools 1.24",
+    "matplotlib": "3.11.1",
+    "minimap2": "2.31-r1302",
+    "pytest": "9.0.2",
+    "python": "3.12.14",
+    "samtools": "samtools 1.24"
+  },
+  "repository_created": false,
+  "source_inputs_unchanged": true,
+  "status": "pass",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "framework": "pytest",
+    "passed": 97,
+    "python": "3.12.14",
+    "skipped": 0,
+    "tests": 97
+  },
+  "workflow": "variant-liftover-explorer",
+  "workflow_version": "0.1.0"
+}

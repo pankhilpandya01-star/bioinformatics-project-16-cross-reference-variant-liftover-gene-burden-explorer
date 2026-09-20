@@ -1,0 +1,7 @@
+baseline_accession,baseline_gene_id,baseline_gene_name,alternative_accession,alternative_gene_id,alternative_gene_name,comparison_status,baseline_variant_count,alternative_variant_count,exact_shared_variant_count,target_only_variant_count,accepted_match_count,rejected_match_count,target_reference_match_count,callable_no_candidate_count,target_not_callable_count,unresolved_projection_count,burden_explanation
+BASELINE.1,G_same,same,ALTERNATIVE.1,A_same,same,comparable,3,3,3,0,3,0,0,0,0,0,same_exact_variants
+BASELINE.1,G_partial,partial,ALTERNATIVE.1,A_partial,partial,comparable,2,2,1,1,1,0,0,1,0,0,partially_shared_variants
+BASELINE.1,G_reference,reference,ALTERNATIVE.1,A_reference,reference,comparable,1,0,0,0,0,0,1,0,0,0,reference_allele_difference
+BASELINE.1,G_filter,filter,ALTERNATIVE.1,A_filter,filter,comparable,1,0,0,0,0,1,0,0,0,0,callability_or_filter_difference
+BASELINE.1,G_different,different,ALTERNATIVE.1,A_different,different,comparable,1,1,0,1,0,0,0,1,0,0,different_variants_in_same_gene
+BASELINE.1,G_unresolved,unresolved,ALTERNATIVE.1,A_unresolved,unresolved,comparable,1,1,0,1,0,0,0,0,0,1,unresolved_liftover

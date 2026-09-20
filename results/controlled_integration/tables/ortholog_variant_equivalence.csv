@@ -1,0 +1,10 @@
+baseline_accession,baseline_gene_id,baseline_gene_name,baseline_variant_key,baseline_consequence,baseline_impact,alternative_accession,alternative_gene_id,alternative_gene_name,projection_status,projection_reason,target_variant_key,target_in_ortholog_gene,target_consequence,target_impact,effect_relation
+BASELINE.1,G_same,same,B:10:A:G,missense_variant,MODERATE,ALTERNATIVE.1,A_same,same,accepted_match,exact key,A:11:A:G,True,missense_variant,MODERATE,same_consequence_and_impact
+BASELINE.1,G_same,same,B:20:C:T,synonymous_variant,LOW,ALTERNATIVE.1,A_same,same,accepted_match,exact key,A:21:C:T,True,stop_retained_variant,LOW,same_impact_different_consequence
+BASELINE.1,G_same,same,B:25:A:T,missense_variant,MODERATE,ALTERNATIVE.1,A_same,same,accepted_match,exact key,A:26:A:T,True,stop_gained,HIGH,different_impact
+BASELINE.1,G_partial,partial,B:30:G:A,missense_variant,MODERATE,ALTERNATIVE.1,A_partial,partial,accepted_match,exact key,A:31:G:A,True,missense_variant,MODERATE,same_consequence_and_impact
+BASELINE.1,G_partial,partial,B:40:T:C,synonymous_variant,LOW,ALTERNATIVE.1,A_partial,partial,callable_no_candidate,absent,A:41:T:C,False,,,target_gene_effect_missing
+BASELINE.1,G_reference,reference,B:50:A:C,missense_variant,MODERATE,ALTERNATIVE.1,A_reference,reference,target_reference_match,reference allele,,False,,,target_gene_effect_missing
+BASELINE.1,G_filter,filter,B:60:G:T,missense_variant,MODERATE,ALTERNATIVE.1,A_filter,filter,rejected_match,filtered,A:61:G:T,False,,,target_gene_effect_missing
+BASELINE.1,G_different,different,B:70:C:A,synonymous_variant,LOW,ALTERNATIVE.1,A_different,different,callable_no_candidate,absent,A:71:C:A,False,,,target_gene_effect_missing
+BASELINE.1,G_unresolved,unresolved,B:80:T:A,frameshift_variant,HIGH,ALTERNATIVE.1,A_unresolved,unresolved,ambiguous_mapping,repeat,,False,,,target_gene_effect_missing

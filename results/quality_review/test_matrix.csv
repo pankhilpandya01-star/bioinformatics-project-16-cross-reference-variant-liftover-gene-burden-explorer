@@ -1,0 +1,11 @@
+area,scenarios,evidence,status
+Input formats,"malformed FASTA, VCF, BED, and PAF records; duplicate headers and keys",unit tests,pass
+Coordinates and alleles,"SNPs, insertions, deletions, repeat normalization, allele swaps, circular-origin spans",controlled and unit tests,pass
+Genome structure,"forward and reverse strands, multiple contigs, missing plasmids, rearrangement gaps",controlled and unit tests,pass
+Mapping confidence,"ambiguous repeats, nonreciprocal mappings, low-quality blocks, alignment thresholds",controlled and unit tests,pass
+Evidence states,"accepted, rejected, target-reference, callable-absent, and non-callable outcomes",controlled and authentic-result tests,pass
+Project 15 integration,"duplicate and missing joins, effect precedence, all burden explanation categories",controlled and authentic-result tests,pass
+Native tools,"normalization failure, malformed normalization output, pinned versions",unit tests and live version checks,pass
+Atomic publication,"controlled, integration, and authentic workflow failures with staging cleanup",injected-failure tests,pass
+Authentic accounting,"481,473 attempts, 154,865 baseline rows, 400 review contexts, hashes, VCF indexes",authentic-result tests,pass
+Publication hygiene,"portable commands, private-path scan, credential scan, authorship-wording scan",result tests and repository scan,pass

@@ -1,0 +1,13 @@
+source_variant_id,source_variant_key,source_contig,source_position,source_reference,source_alternate,source_variant_type,status,reason,alignment_id,strand,target_contig,target_position,target_reference,target_alternate,target_variant_key,reciprocal,normalized
+accepted_snp,src_plus:2:C:G,src_plus,2,C,G,snp,accepted_match,normalized projected key occurs in the target accepted VCF,source_to_target.paf:1,+,tgt_plus,2,C,G,tgt_plus:2:C:G,true,true
+rejected_snp,src_plus:3:G:A,src_plus,3,G,A,snp,rejected_match,normalized projected key occurs in the target rejected VCF,source_to_target.paf:1,+,tgt_plus,3,G,A,tgt_plus:3:G:A,true,true
+target_reference,src_plus:6:T:C,src_plus,6,T,C,snp,target_reference_match,sample allele equals the target reference after reciprocal coordinate validation,source_to_target.paf:1,+,tgt_plus,6,C,C,,true,false
+callable_absent,src_plus:7:G:A,src_plus,7,G,A,snp,callable_no_candidate,target locus is callable but no evaluated target candidate matches,source_to_target.paf:1,+,tgt_plus,7,G,A,tgt_plus:7:G:A,true,true
+not_callable,src_plus:8:T:A,src_plus,8,T,A,snp,target_not_callable,required target reference positions are not all callable,source_to_target.paf:1,+,tgt_plus,8,T,A,tgt_plus:8:T:A,true,true
+accepted_insertion,src_plus:10:C:CAA,src_plus,10,C,CAA,insertion,accepted_match,normalized projected key occurs in the target accepted VCF,source_to_target.paf:1,+,tgt_plus,10,C,CAA,tgt_plus:10:C:CAA,true,true
+accepted_deletion,src_plus:13:AC:A,src_plus,13,AC,A,deletion,accepted_match,normalized projected key occurs in the target accepted VCF,source_to_target.paf:1,+,tgt_plus,13,AC,A,tgt_plus:13:AC:A,true,true
+reverse_snp,src_reverse:4:A:G,src_reverse,4,A,G,snp,accepted_match,normalized projected key occurs in the target accepted VCF,source_to_target.paf:2,-,tgt_reverse,17,T,C,tgt_reverse:17:T:C,true,true
+missing_contig_alignment,src_missing:2:C:A,src_missing,2,C,A,snp,nonalignable,nonalignable,,,,,,,,false,false
+repeat_ambiguity,src_repeat:4:T:C,src_repeat,4,T,C,snp,ambiguous_mapping,ambiguous mapping,,,,,,,,false,false
+gap_context,src_gap:5:A:AG,src_gap,5,A,AG,insertion,complex_alignment_context,insertion anchor coincides with a reference-alignment gap,source_to_target.paf:5,+,,,,,,false,false
+one_way_only,src_oneway:2:G:A,src_oneway,2,G,A,snp,nonreciprocal_mapping,reverse allele projection returned nonalignable,source_to_target.paf:6,+,tgt_oneway,2,G,A,tgt_oneway:2:G:A,false,true

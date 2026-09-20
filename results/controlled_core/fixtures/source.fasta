@@ -1,0 +1,12 @@
+>src_plus
+ACGTATGTACGTACGTACGT
+>src_reverse
+TCGATGCCAGTTACGGTCAA
+>src_missing
+CCCCCTTTTT
+>src_repeat
+GATTACAGATTACAGATTA
+>src_gap
+AAAAAGCCCCC
+>src_oneway
+AGCTTAGGCTAC

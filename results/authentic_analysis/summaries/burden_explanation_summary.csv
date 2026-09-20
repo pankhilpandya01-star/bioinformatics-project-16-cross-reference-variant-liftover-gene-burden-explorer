@@ -1,0 +1,31 @@
+alternative_accession,alternative_label,burden_explanation,gene_pair_count
+GCF_003697165.2,DSM 30083 / ATCC 11775,same_exact_variants,127
+GCF_003697165.2,DSM 30083 / ATCC 11775,partially_shared_variants,988
+GCF_003697165.2,DSM 30083 / ATCC 11775,reference_allele_difference,142
+GCF_003697165.2,DSM 30083 / ATCC 11775,callability_or_filter_difference,0
+GCF_003697165.2,DSM 30083 / ATCC 11775,different_variants_in_same_gene,1029
+GCF_003697165.2,DSM 30083 / ATCC 11775,unresolved_liftover,920
+GCF_036503815.1,2017-02-2CC,same_exact_variants,96
+GCF_036503815.1,2017-02-2CC,partially_shared_variants,1315
+GCF_036503815.1,2017-02-2CC,reference_allele_difference,181
+GCF_036503815.1,2017-02-2CC,callability_or_filter_difference,1
+GCF_036503815.1,2017-02-2CC,different_variants_in_same_gene,1038
+GCF_036503815.1,2017-02-2CC,unresolved_liftover,506
+GCF_005843885.1,E4742,same_exact_variants,1
+GCF_005843885.1,E4742,partially_shared_variants,0
+GCF_005843885.1,E4742,reference_allele_difference,1
+GCF_005843885.1,E4742,callability_or_filter_difference,0
+GCF_005843885.1,E4742,different_variants_in_same_gene,6
+GCF_005843885.1,E4742,unresolved_liftover,1
+GCF_000026225.1,ATCC 35469,same_exact_variants,1
+GCF_000026225.1,ATCC 35469,partially_shared_variants,0
+GCF_000026225.1,ATCC 35469,reference_allele_difference,0
+GCF_000026225.1,ATCC 35469,callability_or_filter_difference,0
+GCF_000026225.1,ATCC 35469,different_variants_in_same_gene,0
+GCF_000026225.1,ATCC 35469,unresolved_liftover,0
+GCF_002900365.1,HT073016,same_exact_variants,0
+GCF_002900365.1,HT073016,partially_shared_variants,0
+GCF_002900365.1,HT073016,reference_allele_difference,0
+GCF_002900365.1,HT073016,callability_or_filter_difference,0
+GCF_002900365.1,HT073016,different_variants_in_same_gene,2
+GCF_002900365.1,HT073016,unresolved_liftover,1

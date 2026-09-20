@@ -1,0 +1,46 @@
+alternative_accession,alternative_label,projection_status,review_candidate_count
+GCF_003697165.2,DSM 30083 / ATCC 11775,accepted_match,11
+GCF_003697165.2,DSM 30083 / ATCC 11775,ambiguous_mapping,0
+GCF_003697165.2,DSM 30083 / ATCC 11775,callable_no_candidate,2
+GCF_003697165.2,DSM 30083 / ATCC 11775,complex_alignment_context,5
+GCF_003697165.2,DSM 30083 / ATCC 11775,nonalignable,52
+GCF_003697165.2,DSM 30083 / ATCC 11775,nonreciprocal_mapping,4
+GCF_003697165.2,DSM 30083 / ATCC 11775,rejected_match,0
+GCF_003697165.2,DSM 30083 / ATCC 11775,target_not_callable,2
+GCF_003697165.2,DSM 30083 / ATCC 11775,target_reference_match,4
+GCF_036503815.1,2017-02-2CC,accepted_match,29
+GCF_036503815.1,2017-02-2CC,ambiguous_mapping,0
+GCF_036503815.1,2017-02-2CC,callable_no_candidate,7
+GCF_036503815.1,2017-02-2CC,complex_alignment_context,1
+GCF_036503815.1,2017-02-2CC,nonalignable,20
+GCF_036503815.1,2017-02-2CC,nonreciprocal_mapping,6
+GCF_036503815.1,2017-02-2CC,rejected_match,1
+GCF_036503815.1,2017-02-2CC,target_not_callable,1
+GCF_036503815.1,2017-02-2CC,target_reference_match,15
+GCF_005843885.1,E4742,accepted_match,2
+GCF_005843885.1,E4742,ambiguous_mapping,0
+GCF_005843885.1,E4742,callable_no_candidate,0
+GCF_005843885.1,E4742,complex_alignment_context,2
+GCF_005843885.1,E4742,nonalignable,68
+GCF_005843885.1,E4742,nonreciprocal_mapping,0
+GCF_005843885.1,E4742,rejected_match,4
+GCF_005843885.1,E4742,target_not_callable,4
+GCF_005843885.1,E4742,target_reference_match,0
+GCF_000026225.1,ATCC 35469,accepted_match,0
+GCF_000026225.1,ATCC 35469,ambiguous_mapping,0
+GCF_000026225.1,ATCC 35469,callable_no_candidate,0
+GCF_000026225.1,ATCC 35469,complex_alignment_context,1
+GCF_000026225.1,ATCC 35469,nonalignable,66
+GCF_000026225.1,ATCC 35469,nonreciprocal_mapping,1
+GCF_000026225.1,ATCC 35469,rejected_match,4
+GCF_000026225.1,ATCC 35469,target_not_callable,6
+GCF_000026225.1,ATCC 35469,target_reference_match,2
+GCF_002900365.1,HT073016,accepted_match,1
+GCF_002900365.1,HT073016,ambiguous_mapping,0
+GCF_002900365.1,HT073016,callable_no_candidate,1
+GCF_002900365.1,HT073016,complex_alignment_context,0
+GCF_002900365.1,HT073016,nonalignable,68
+GCF_002900365.1,HT073016,nonreciprocal_mapping,2
+GCF_002900365.1,HT073016,rejected_match,1
+GCF_002900365.1,HT073016,target_not_callable,7
+GCF_002900365.1,HT073016,target_reference_match,0

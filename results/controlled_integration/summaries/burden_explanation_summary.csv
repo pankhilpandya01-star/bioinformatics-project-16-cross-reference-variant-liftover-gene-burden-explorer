@@ -1,0 +1,7 @@
+burden_explanation,count
+same_exact_variants,1
+partially_shared_variants,1
+reference_allele_difference,1
+callability_or_filter_difference,1
+different_variants_in_same_gene,1
+unresolved_liftover,1

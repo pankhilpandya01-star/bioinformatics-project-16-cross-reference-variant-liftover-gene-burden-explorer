@@ -1,0 +1,6 @@
+baseline_accession,alternative_accession,alternative_label,forward_paf_records,reverse_paf_records,forward_qualifying_blocks,reverse_qualifying_blocks,reciprocal_block_pairs,baseline_bases,baseline_reciprocal_bases,baseline_reciprocal_percent,alternative_bases,alternative_reciprocal_bases,alternative_reciprocal_percent,substantive_comparison
+GCF_000005845.2,GCF_003697165.2,DSM 30083 / ATCC 11775,96,93,36,40,33,4641652,2544318,54.81492365,5034834,2464551,48.94999517,false
+GCF_000005845.2,GCF_036503815.1,2017-02-2CC,115,107,56,56,54,4641652,3202283,68.99015695,5199626,3222035,61.96666837,false
+GCF_000005845.2,GCF_005843885.1,E4742,144,144,43,44,43,4641652,1580586,34.05222968,5120753,1584290,30.93861391,false
+GCF_000005845.2,GCF_000026225.1,ATCC 35469,322,308,60,59,56,4641652,1102975,23.76255264,4643861,1103509,23.76274828,false
+GCF_000005845.2,GCF_002900365.1,HT073016,174,166,38,40,36,4641652,939654,20.24395625,4896291,933922,19.07407056,false

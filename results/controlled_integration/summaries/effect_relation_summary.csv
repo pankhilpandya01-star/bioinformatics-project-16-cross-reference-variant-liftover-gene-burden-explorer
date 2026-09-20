@@ -1,0 +1,5 @@
+effect_relation,count
+different_impact,1
+same_consequence_and_impact,2
+same_impact_different_consequence,1
+target_gene_effect_missing,5

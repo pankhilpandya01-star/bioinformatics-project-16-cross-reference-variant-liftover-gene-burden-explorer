@@ -1,0 +1,9 @@
+metric,expected,observed,status
+comparison_rows,23255,23255,pass
+comparable_gene_pairs,6356,6356,pass
+annotation_effects,357959,357959,pass
+variant_gene_assignments,327542,327542,pass
+unlinked_effects,30382,30382,pass
+gene_burden_rows,28859,28859,pass
+review_contexts,400,400,pass
+review_candidates,80,80,pass

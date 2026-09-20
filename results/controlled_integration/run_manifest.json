@@ -1,0 +1,35 @@
+{
+  "atomic_publication": true,
+  "category_precedence": [
+    "unresolved_liftover",
+    "same_exact_variants",
+    "partially_shared_variants",
+    "reference_allele_difference",
+    "callability_or_filter_difference",
+    "different_variants_in_same_gene"
+  ],
+  "counts": {
+    "burden_categories": {
+      "callability_or_filter_difference": 1,
+      "different_variants_in_same_gene": 1,
+      "partially_shared_variants": 1,
+      "reference_allele_difference": 1,
+      "same_exact_variants": 1,
+      "unresolved_liftover": 1
+    },
+    "comparable_gene_pairs": 6,
+    "effect_relations": {
+      "different_impact": 1,
+      "same_consequence_and_impact": 2,
+      "same_impact_different_consequence": 1,
+      "target_gene_effect_missing": 5
+    },
+    "review_candidate_contexts": 2,
+    "variant_gene_projection_rows": 9
+  },
+  "interpretation_boundary": "Gene-level integration explains controlled burden patterns without asserting phenotype.",
+  "milestone": "controlled_project15_integration",
+  "status": "pass",
+  "workflow": "variant-liftover-explorer",
+  "workflow_version": "0.1.0"
+}

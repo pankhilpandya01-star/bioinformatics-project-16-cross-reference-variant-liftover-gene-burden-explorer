@@ -1,0 +1,10 @@
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000005845.2> <SOURCE_FASTA:GCF_003697165.2> > <PAF:GCF_003697165.2_to_GCF_000005845.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_003697165.2> <SOURCE_FASTA:GCF_000005845.2> > <PAF:GCF_000005845.2_to_GCF_003697165.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000005845.2> <SOURCE_FASTA:GCF_036503815.1> > <PAF:GCF_036503815.1_to_GCF_000005845.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_036503815.1> <SOURCE_FASTA:GCF_000005845.2> > <PAF:GCF_000005845.2_to_GCF_036503815.1>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000005845.2> <SOURCE_FASTA:GCF_005843885.1> > <PAF:GCF_005843885.1_to_GCF_000005845.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_005843885.1> <SOURCE_FASTA:GCF_000005845.2> > <PAF:GCF_000005845.2_to_GCF_005843885.1>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000005845.2> <SOURCE_FASTA:GCF_000026225.1> > <PAF:GCF_000026225.1_to_GCF_000005845.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000026225.1> <SOURCE_FASTA:GCF_000005845.2> > <PAF:GCF_000005845.2_to_GCF_000026225.1>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_000005845.2> <SOURCE_FASTA:GCF_002900365.1> > <PAF:GCF_002900365.1_to_GCF_000005845.2>
+minimap2 -cx asm20 --cs=long --eqx --secondary=yes -N 5 -t 1 <TARGET_FASTA:GCF_002900365.1> <SOURCE_FASTA:GCF_000005845.2> > <PAF:GCF_000005845.2_to_GCF_002900365.1>

@@ -1,0 +1,10 @@
+status,count
+accepted_match,4
+ambiguous_mapping,1
+callable_no_candidate,1
+complex_alignment_context,1
+nonalignable,1
+nonreciprocal_mapping,1
+rejected_match,1
+target_not_callable,1
+target_reference_match,1

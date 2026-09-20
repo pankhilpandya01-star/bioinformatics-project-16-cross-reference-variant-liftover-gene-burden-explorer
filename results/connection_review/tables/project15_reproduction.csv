@@ -1,0 +1,8 @@
+metric,expected,observed,status
+references,6,6,pass
+accepted_variants,357581,357581,pass
+annotation_effects,357959,357959,pass
+baseline_alternative_gene_comparisons,23255,23255,pass
+comparable_gene_pairs,6356,6356,pass
+project14_review_candidates,80,80,pass
+review_candidate_reference_contexts,400,400,pass
