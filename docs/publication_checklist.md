@@ -49,7 +49,7 @@ authorized on 2026-09-20.
 
 - [x] Create the public GitHub repository.
 - [x] Initialize Git and review the staged file list.
-- [ ] Commit and push the publication candidate.
-- [ ] Confirm the hosted GitHub Actions run passes.
-- [ ] Check README tables, links, and dashboard rendering on GitHub.
-- [ ] Add Project 16 to the portfolio and earlier-project navigation.
+- [x] Commit and push the publication candidate.
+- [x] Confirm the hosted GitHub Actions run passes.
+- [x] Check README tables, links, and dashboard rendering on GitHub.
+- [x] Add Project 16 to the portfolio and earlier-project navigation.

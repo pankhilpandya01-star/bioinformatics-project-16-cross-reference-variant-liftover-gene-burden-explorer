@@ -4,7 +4,7 @@
   "candidate_bytes": 78592809,
   "candidate_files": 158,
   "individual_file_limit_bytes": 104857600,
-  "inventory_sha256": "9362eb5e10864e78ccb9997d0351514fcf95759f957efbde3f6c294454e38f65",
+  "inventory_sha256": "c456e854d8dc238eb427526b4997658c9e09fcafa8a8844afc06062eff5637e3",
   "largest_file": {
     "bytes": 34854908,
     "path": "results/authentic_analysis/tables/baseline_variant_comparison.csv",
